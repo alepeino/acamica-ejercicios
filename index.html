@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <main>
+        <article>
+            <h2>Dibujando con bucles</h2>
+            <div class="flex">
+                <div class="enunciado">
+                    <p>
+                        Escribir un programa que pida por prompt dos números: uno para ancho y otro para alto,
+                        y luego cree un string que, una vez insertado en el DOM, dibuje un rectángulo de las dimensiones
+                        especificadas (en caracteres).
+                    </p>
+                </div>
+                <button onclick="ejercicioDibujo()">Iniciar</button>
+            </div>
+            <pre id="dibujo"></pre>
+        </article>
+    </main>
+    <main>
+        <article>
+            <h2>Formulario dinámico</h2>
+            <div class="flex">
+                <div class="enunciado">
+                    <p>
+                        Escribir un programa que pida por prompt sucesivamente, los campos que se van a pedir en un formulario.
+                        Cuando se ingrese "" (string vacío), se considera que ya no se requieren más campos.
+                    </p>
+                    <p>
+                        (Ejemplo: "nombre", "apellido", "edad").
+                    </p>
+                    <p>
+                        Luego, pedir por prompt esos datos y agregarlos a un objeto, y, cuando se hayan pedido todos, mostrar
+                        el resultado.
+                    </p>
+                    <p>
+                        Ejemplo:
+                    </p>
+                    <pre>
+                        {
+                            nombre: 'Alberto',
+                            apellido: 'Tapia',
+                            edad: 48
+                        }
+                    </pre>
+                </div>
+                <button onclick="ejercicioDatos()">Iniciar</button>
+            </div>
+            <pre id="datos"></pre>
+        </article>
+    </main>
+    <script src="js/ejercicios.js"></script>
+</body>
+
+</html>
